@@ -1,0 +1,4 @@
+# SR-MCL_Graph_Clustering
+This is the python implementation of SR-MCL algorithm which is an improvement to the MCL (Markov Clustering Algorithm) and tested on real world dataset, weighted yeast proteins interactome, since the yeast data was to large to plot I came up with creating a random graph for executing and showing the nodes predicted clusters. 
+The MCL (Markov Clustering Algorithm) is a well-known algorithm for clustering graphs, but it has some limitations and problems with bridge nodes. A few years later the R-MCL (Regularized MCL) introduced, it solved some MCL problems and also improved in execution time, but still the bridge nodes problem remains.
+The main idea behind the SR-MCL is to make the R-MCL algorithm to not focusing on bridges by soften the wights of canonical flow matrix after each step.
