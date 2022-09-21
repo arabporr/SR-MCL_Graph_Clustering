@@ -5,3 +5,8 @@ The SR-MCL algorithm is an improvement to the MCL (Markov Clustering Algorithm).
 
 The implemented code was then run on a real-world dataset, weighted yeast proteins interactome, to check how long it takes to reach an end and converges with a graph of size 1e3 nodes and 1e4 edges!
 
+## Testing on Random Graph
+After testing its performance to see how it works, I created a random graph with 50 nodes and some edges between them. 
+![RandomGraph](https://github.com/arabporr/SR-MCL_Graph_Clustering/blob/e2f2d3c16aff30066d4921857c660c093e03e99d/RandomGraph.png)
+Then by running the algorithm on them, I colored each cluster a different color, But the bridge nodes colored yellow to be identified!
+![ClusteredRandomGraph](https://github.com/arabporr/SR-MCL_Graph_Clustering/blob/e2f2d3c16aff30066d4921857c660c093e03e99d/ClusteredRandomGraph.png)
