@@ -1,4 +1,7 @@
-# SR-MCL_Graph_Clustering
-This is the python implementation of SR-MCL algorithm which is an improvement to the MCL (Markov Clustering Algorithm) and tested on real world dataset, weighted yeast proteins interactome, since the yeast data was to large to plot I came up with creating a random graph for executing and showing the nodes predicted clusters. 
-The MCL (Markov Clustering Algorithm) is a well-known algorithm for clustering graphs, but it has some limitations and problems with bridge nodes. A few years later the R-MCL (Regularized MCL) introduced, it solved some MCL problems and also improved in execution time, but still the bridge nodes problem remains.
-The main idea behind the SR-MCL is to make the R-MCL algorithm to not focusing on bridges by soften the wights of canonical flow matrix after each step.
+# Identifying overlapping functional modules of protein interactions graph
+In this project, I tried implementing one of the most efficient algorithms for large graphs clustering, the SR-MCL, in python and checked how it works on both big and small graphs.
+
+The SR-MCL algorithm is an improvement to the MCL (Markov Clustering Algorithm). The MCL is a practical algorithm for clustering biological networks, for instance, clustering protein-protein interaction (PPI) networks to identify functional modules. But it has some limitations and problems with bridge nodes. A few years later, the R-MCL (Regularized MCL) [introduced by Yu-Keng Shih and Srinivasan Parthasarathy in 2010](https://www.researchgate.net/publication/221611395_Markov_Clustering_of_Protein_Interaction_Networks_with_Improved_Balance_and_Scalability) solved some of the MCL problems and improved execution time. However, still, the problem with bridge nodes remains. Two years later, [the same people came up with the new idea of SR-MCL](https://academic.oup.com/bioinformatics/article/28/18/i473/243788?login=true). The main idea behind it was to make the R-MCL algorithm not focus on bridges by softening the weights of the canonical flow matrix after each step.
+
+The implemented code was then run on a real-world dataset, weighted yeast proteins interactome, to check how long it takes to reach an end and converges with a graph of size 1e3 nodes and 1e4 edges!
+
