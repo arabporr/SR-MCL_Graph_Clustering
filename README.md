@@ -7,8 +7,10 @@ The implemented code was then run on a real-world dataset, weighted yeast protei
 
 ## Testing on Random Graph
 - After testing its performance to see how it works, I created a random graph with 50 nodes and some edges between them. 
+
 ![RandomGraph](https://github.com/arabporr/SR-MCL_Graph_Clustering/blob/e2f2d3c16aff30066d4921857c660c093e03e99d/RandomGraph.png)
 
 - Then by running the algorithm on them, I colored each cluster a different color, But the bridge nodes colored yellow to be identified!
+
 ![ClusteredRandomGraph](https://github.com/arabporr/SR-MCL_Graph_Clustering/blob/e2f2d3c16aff30066d4921857c660c093e03e99d/ClusteredRandomGraph.png)
 
