@@ -14,3 +14,6 @@ The implemented code was then run on a real-world dataset, weighted yeast protei
 
 ![ClusteredRandomGraph](https://github.com/arabporr/SR-MCL_Graph_Clustering/blob/e2f2d3c16aff30066d4921857c660c093e03e99d/ClusteredRandomGraph.png)
 
+## Reference
+- [Markov Clustering of Protein Interaction Networks with Improved Balance and Scalability](https://www.researchgate.net/publication/221611395_Markov_Clustering_of_Protein_Interaction_Networks_with_Improved_Balance_and_Scalability)
+- [Identifying functional modules in interaction networks through overlapping Markov clustering](https://academic.oup.com/bioinformatics/article/28/18/i473/243788?login=true)
