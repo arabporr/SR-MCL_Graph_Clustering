@@ -7,7 +7,7 @@ The SR-MCL algorithm is an improvement to the MCL (Markov Clustering Algorithm).
 
 A few years later, the R-MCL (Regularized MCL) [introduced by Yu-Keng Shih and Srinivasan Parthasarathy in 2010](https://www.researchgate.net/publication/221611395_Markov_Clustering_of_Protein_Interaction_Networks_with_Improved_Balance_and_Scalability) solved some of the MCL problems and improved execution time. However, still, the problem with bridge nodes remains. Two years later, [the same people came up with the new idea of SR-MCL](https://academic.oup.com/bioinformatics/article/28/18/i473/243788?login=true). The main idea behind it was to make the R-MCL algorithm not focus on bridges by softening the weights of the canonical flow matrix after each step.
 
-## Result on a small random Graph
+## Result on a small random graph
 - After testing its performance to see how it works, I created a random graph with 50 nodes and some edges between them. 
 
 ![RandomGraph](https://github.com/arabporr/SR-MCL_Graph_Clustering/blob/e2f2d3c16aff30066d4921857c660c093e03e99d/RandomGraph.png)
